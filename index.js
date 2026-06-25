@@ -13,3 +13,11 @@ cards.forEach(card => {
     });
 
 });
+
+const orderButtons = document.querySelectorAll(".order-btn");
+
+orderButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        alert("Thank you for your order! We will contact you shortly.");
+    });
+});
